@@ -1,1 +1,49 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* VARIABLES */
+
+:root {
+    --primary-color: #1c3158;
+    --secondary-color: #144390;
+    --tertiary-color: #104f8e;
+    --auxiliary-color: #2ebdef; 
+    --auxiliary-color-trans: rgba(46, 189, 239, 0.3);
+}
+
+/* HEADER */
+
+.header {
+    background: url(assets/img/innovator-bg.jpg) no-repeat center;
+    background-size: cover;
+  }
+
+/* TEXT */
+
+.text-primary-sbi {
+    color: var(--primary-color);
+}
+
+.text-secondary-sbi {
+    color: var(--secondary-color);
+}
+
+.text-tertiary-sbi {
+    color: var(--tertiary-color);
+}
+
+.text-auxiliary-sbi {
+    color: var(--auxiliary-color);
+}
+
+/* BACKGROUNDS */
+
+.bg-auxiliary-trans-sbi {
+    background-color: var(--auxiliary-color-trans);
+}
+
+/* CONTAINERS */
+
+.container-height-sbi {
+    /* min-height: 100vh; */
+    min-height: calc(100vh - 56px - 136px);
+}
